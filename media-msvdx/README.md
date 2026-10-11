@@ -35,7 +35,7 @@ B_RGB32 through `BMediaTrack::ReadFrames()`:
 ## Layout
 
 `hw/`, `chromium/`, `shim/` and `rtv_msvdx.*` are the decode engine shared with
-R Television (`rtelevision/platforms/haiku/msvdx`) and R Chromium
+R Television (`rtelevision/platforms/renkuos/msvdx`) and R Chromium
 (`chromium114_port/files/media/gpu/haiku/msvdx`): Chromium's H.264 parser and
 decoder (BSD) driving psb_video's H.264 command builder (MIT) and a userland
 MSVDX driver. Keep the copies in step. `MsvdxDecoder.cpp` is the Media Kit side.
