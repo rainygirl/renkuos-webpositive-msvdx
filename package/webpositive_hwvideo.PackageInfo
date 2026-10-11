@@ -19,5 +19,5 @@ requires {
 	msvdx_media_x86 >= 1.0.0
 }
 urls {
-	"https://github.com/rainygirl/haiku-webpositive-msvdx"
+	"https://github.com/rainygirl/renkuos-webpositive-msvdx"
 }

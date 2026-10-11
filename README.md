@@ -30,7 +30,7 @@ Then restart WebPositive. `webpositive_hwvideo` pulls in:
 
 | Package | What it is |
 |---|---|
-| `haikuwebkit_x86` 1.9.19-22 | HaikuWebKit with the media engine and clock fixes, Media Source Extensions and an assembly JavaScript interpreter ([haiku-webpositive-youtube-patch](https://github.com/rainygirl/haiku-webpositive-youtube-patch)), and the leak fixes from haiku-rwebpositive-arm64, replacing the official 1.9.19 |
+| `haikuwebkit_x86` 1.9.19-22 | HaikuWebKit with the media engine and clock fixes, Media Source Extensions and an assembly JavaScript interpreter ([haiku-webpositive-youtube-patch](https://github.com/rainygirl/renkuos-webpositive-youtube-patch)), and the leak fixes from haiku-rwebpositive-arm64, replacing the official 1.9.19 |
 | `msvdx_media_x86` | the decoder add-on |
 | `msvdx_firmware` | Intel's microcode for the GMA500 video decoder |
 
@@ -51,7 +51,7 @@ removing this repository (`pkgman drop-repo`).
 ## Building
 
 - WebKit: `webkit/build-haikuwebkit-x86.sh`, a cross build on Linux; it uses
-  [haiku-rwebpositive-arm64](https://github.com/rainygirl/haiku-rwebpositive-arm64)'s
+  [haiku-rwebpositive-arm64](https://github.com/rainygirl/renkuos-rwebpositive-arm64)'s
   x86 build with this repository's patch on top. Set `RWP` to its checkout.
 - Add-on: `cd media-msvdx && make` on the Haiku machine (needs
   `haiku_x86_devel` and `ffmpeg6_x86_devel`).
